@@ -1,0 +1,57 @@
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+body {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  overflow: hidden;
+}
+.finger-div {
+  position: absolute;
+  display: inline-block;
+  color: #EEE;
+  font-size: 16px;
+  z-index: 1000;
+}
+.display {
+  width: 100%;
+  height: 100%;
+}
+.display .disco-canvas,
+.display .doodle-canvas {
+  width: 100%;
+  height: 105%;
+}
+.display .slide {
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.display-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 500;
+  width: 150px;
+  height: 100%;
+  text-align: center;
+  font-family: sans-serif;
+  opacity: 0;
+}
+.display-menu:hover,
+.display-menu.hover {
+  opacity: 1.0;
+}
+.display-menu .menu-button {
+  opacity: 0.7;
+  padding-top: 75%;
+  height: 33%;
+  color: white;
+  background-color: #333;
+  border: 3px solid black;
+  box-sizing: border-box;
+}

@@ -1,0 +1,18 @@
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+body {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  overflow: hidden;
+}
+.disco-square {
+  float: left;
+  display: inline-block;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
